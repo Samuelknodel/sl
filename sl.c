@@ -130,7 +130,12 @@ int main(int argc, char *argv[])
         init_pair(2, COLOR_GREEN, COLOR_BLACK);
         init_pair(1, COLOR_CYAN, COLOR_BLACK);
     }
-    if (SIGNAL) signal(SIGINT, SIG_IGN);
+    if (SIGNAL) {
+      //Ignore Signals To Stop The Programm
+      signal(SIGINT, SIG_IGN);
+      signal(SIGTSTP, SIG_IGN);
+    }
+    
     noecho();
     curs_set(0);
     nodelay(stdscr, TRUE);
