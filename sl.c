@@ -6,6 +6,8 @@
  *        Last Modified: 2019/03/19
  *========================================
  */
+
+//sl version 5.05-1 Fixed https://github.com/eyJhb/sl/pull/18 and https://github.com/mtoyoda/sl/issues/101 
 /* sl version 5.05 : by eyJhb 2019-08-14
  * - Merged pull request from cosmo-ray adding orange TGV (-G)
  * sl version 5.04 : by eyJhb 2019-03-19
