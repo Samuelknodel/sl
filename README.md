@@ -13,9 +13,12 @@ I have merged the following
 
 I have also added `-v` and updated the last updated and version number to 5.04.
 
-# Update notes from Samuelknodel
-Fixed/Merged https://github.com/mtoyoda/sl/issues/101
-Fixed/Merged https://github.com/eyJhb/sl/pull/18
+# Notes from Samuelknodel
+This Is Basically My First Time Using git/github
+- [Fixed Escaping With Ctrl-Z](https://github.com/mtoyoda/sl/issues/101)
+- [Fixed Segfault](https://github.com/eyJhb/sl/pull/18)
+
+-------------------------------------------------------------------------------
 
 Copyright 1993,1998,2014,2019 Toyoda Masashi (mtoyoda@acm.org)
 
